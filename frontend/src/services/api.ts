@@ -1,6 +1,6 @@
 import { courses as dummyCourses, type Course } from "@/data/courses";
 
-export const API_BASE = "https://lms-project-madm.onrender.com";
+export const API_BASE = "https://lms-project-madm.onrender.com/api";
 
 // ================= HELPER =================
 

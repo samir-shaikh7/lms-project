@@ -452,3 +452,21 @@ export async function downloadCertificate(courseId: number | string) {
     throw error;
   }
 }
+
+// ================= AUTH (TEMP MOCK) =================
+
+export async function resetPassword(token: string, newPassword: string) {
+  // temporary mock (until backend is ready)
+  console.log("Mock resetting password with token:", token, "newPassword:", newPassword);
+  return new Promise<{ ok: boolean }>((resolve) => {
+    setTimeout(() => resolve({ ok: true }), 500);
+  });
+}
+
+export async function requestPasswordReset(email: string) {
+  // temporary mock (until backend is ready)
+  console.log("Mock requesting password reset for email:", email);
+  return new Promise<{ ok: boolean }>((resolve) => {
+    setTimeout(() => resolve({ ok: true }), 500);
+  });
+}

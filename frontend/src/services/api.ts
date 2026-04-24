@@ -12,7 +12,7 @@ export type Course = {
   [key: string]: any;
 };
 
-export const API_BASE = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000/api";
+export const API_BASE = import.meta.env.VITE_API_BASE || "https://lms-project-y92g.onrender.com/api";
 
 // ================= HELPER =================
 
